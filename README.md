@@ -2,7 +2,7 @@
 
 ---
 
-From the udemy course "complete elixir and phoenix bootcamp"
+*From the udemy course "complete elixir and phoenix bootcamp"*
 
 ### Cards
 
@@ -16,8 +16,21 @@ as many cards as the user requests.
 This tutorial shows you how to make an _identicon_. You see these generated images here on GitHub
 for example when a user hasn't uploaded their own profile picture and they remain with this 
 generated identicon. It takes an input from the user. Using that you create an MD5 checksum and 
-create a list of random numbers from it. With that we can choose a colour for the squares in the 
+create a list of _random_ numbers from it. With that we can choose a colour for the squares in the 
 image and then choose what squares should be coloured. The idea with these identicons is that
 they are mirrored. My username, 'shmink' gave a nice result:
 
 ![alt text](identicon/shmink.png "Happy accident :)")
+
+---
+
+### Discuss
+
+A reddit clone, but diluted.
+
+* OAuth for login
+* Creating posts.
+* Edit or delete those posts after creation.
+* Sumbit comments on a post
+
+*Unfinished*
