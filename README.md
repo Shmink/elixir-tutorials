@@ -26,11 +26,13 @@ they are mirrored. My username, 'shmink' gave a nice result:
 
 ### Discuss
 
-A reddit clone, but diluted.
+A StackOverflow type  clone, but diluted.
 
 * OAuth for login
 * Creating posts.
 * Edit or delete those posts after creation.
-* Sumbit comments on a post
+* Submit comments on a post
 
+#### Usage
+...
 *Unfinished*
