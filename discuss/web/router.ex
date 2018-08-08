@@ -17,11 +17,20 @@ defmodule Discuss.Router do
     # Use the default browser stack
     pipe_through(:browser)
 
-    get("/", TopicController, :index)
-    get("/topics/new", TopicController, :new)
-    post("/topics", TopicController, :create)
-    get("/topics/:id/edit", TopicController, :edit)
-    put("/topics/:id", TopicController, :update)
+    # get("/", TopicController, :index)
+    # get("/topics/new", TopicController, :new)
+    # post("/topics", TopicController, :create)
+    # get("/topics/:id/edit", TopicController, :edit)
+    # put("/topics/:id", TopicController, :update)
+    # IF FOLLOWING RESTFUL CONVENTIONS YOU CAN DO THE BELOW TO AVOID THE ABOVE. PHOENIX JUST WORKS IT OUT.
+    resources("/", TopicController)
+  end
+
+  scope "/auth", Discuss do
+    pipe_through(:browser)
+
+    get("/:provider", AuthController, :request)
+    get("/:provider/callback", AuthController, :callback)
   end
 
   # Other scopes may use custom stacks.
