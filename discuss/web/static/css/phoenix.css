@@ -6144,6 +6144,7 @@ a.thumbnail:hover {
 }
 
 .alert-danger {
+    text-align: center;
     color: #a94442;
     background-color: #f2dede;
     border-color: #ebccd1
