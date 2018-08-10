@@ -56,7 +56,8 @@ defmodule Discuss.Mixfile do
       {:cowboy, "~> 1.0"},
       {:ueberauth, "~> 0.3"},
       {:ueberauth_github, "~> 0.4"},
-      {:envy, "~> 1.1.1"}
+      {:envy, "~> 1.1.1"},
+			{:credo, "~> 0.10.0"}
     ]
   end
 
