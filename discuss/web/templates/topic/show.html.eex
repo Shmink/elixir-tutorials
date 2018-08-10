@@ -3,6 +3,9 @@
 <div class="input-field">
     <textarea class="materialize-textarea"></textarea>
     <button class="btn">Submit Comment</button>
+
+    <ul class="collection">
+    </ul>
 </div>
 
 <script>
